@@ -81,12 +81,12 @@ body {
 .streaming-buttons {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
     margin-bottom: 30px;
 }
 
 .streaming-buttons img {
-    height: 25px;
+    height: 40px;
     width: auto;
     display: block;
 }
