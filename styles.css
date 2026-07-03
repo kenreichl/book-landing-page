@@ -71,6 +71,26 @@ body {
     transform: translateY(-3px);
 }
 
+.streaming-title {
+    font-size: 2.8rem;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    text-align: left;
+}
+
+.streaming-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.streaming-buttons img {
+    height: 25px;
+    width: auto;
+    display: block;
+}
+
 .creators {
     gap: 40px;
 }
@@ -112,5 +132,9 @@ body {
 
     .book-cover {
         max-width: 100%;
+    }
+
+    .streaming-title {
+        font-size: 2.0rem;
     }
 }
